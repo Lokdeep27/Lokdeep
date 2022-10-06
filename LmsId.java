@@ -14,6 +14,8 @@ public class LmsId {
 		id.add(1,900);
 		id.set(4,200);
 		id.remove(2);
+		id.add(765);
+		
 		for (int i=0;i<id.size();i++) {
 			System.out.println(id.get(i));
 		}
